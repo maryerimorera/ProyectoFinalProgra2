@@ -1,0 +1,112 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 11px Tahoma;
+}
+
+h1 {
+    font: bold 32px Times;
+    color: #666;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#container {
+    width: 700px;
+    margin: 10px auto;
+}
+
+.mGrid {
+    width: 100%;
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+}
+
+    .mGrid td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+        color: #717171;
+    }
+
+    .mGrid th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #424242 url(grd_head.png) repeat-x top;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }
+
+    .mGrid .alt {
+        background: #fcfcfc url(grd_alt.png) repeat-x top;
+    }
+
+    .mGrid .pgr {
+        background: #424242 url(grd_pgr.png) repeat-x top;
+    }
+
+        .mGrid .pgr table {
+            margin: 5px 0;
+        }
+
+        .mGrid .pgr td {
+            border-width: 0;
+            padding: 0 6px;
+            border-left: solid 1px #666;
+            font-weight: bold;
+            color: #fff;
+            line-height: 12px;
+        }
+
+        .mGrid .pgr a {
+            color: #666;
+            text-decoration: none;
+        }
+
+            .mGrid .pgr a:hover {
+                color: #000;
+                text-decoration: none;
+            }
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #008CBA;
+}
+/* Blue */
+.button3 {
+    background-color: #f44336;
+}
+/* Red */
+.button4 {
+    background-color: #e7e7e7;
+    color: black;
+}
+/* Gray */
+.button5 {
+    background-color: #555555;
+}
+/* Black */
+
+.center {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green;
+}
